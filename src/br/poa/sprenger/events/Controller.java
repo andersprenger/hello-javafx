@@ -14,7 +14,7 @@ public class Controller {
     @FXML private CheckBox clearNameField;
 
     @FXML public void onButtonClicked(ActionEvent e) {
-        if (e.getSource().equals(helloButton)){
+        if (e.getSource().equals(helloButton)) {
             System.out.println("Hello, " + nameField.getText());
         } else if (e.getSource().equals(byeButton)) {
             System.out.println("Bye, " + nameField.getText());
